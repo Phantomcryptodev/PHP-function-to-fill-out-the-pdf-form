@@ -22,14 +22,14 @@
         foreach ($values as $key => $val)
             $fdf .= "<< /V ($val)/T ($key) >> \n";
         
-        $fdf .= "]\n/F ($pdf_file_source) >>";
+        $fdf .= "]\n/F ($pdf_file_source) >>";   
         $fdf .= ">>\nendobj\ntrailer\n<<\n";
         $fdf .= "/Root 1 0 R \n\n>>\n";
         $fdf .= "%%EOF";
         
         $fp = fopen($file_name[0].".fdf", "w");
         fwrite($fp, $fdf);
-        fclose($fp);
+        fclose($fp);    
     }    
     // Merge fdf into original PDF file
     function generate_pdf_form($pdf_file_source, $json_file_source, $output_file_name) {
