@@ -1,0 +1,15 @@
+%FDF-1.2
+1 0 obj
+1 0 obj 
+<< /FDF << /Fields [
+<< /V (John Doe)/T (Decedents Name) >> 
+<< /V (888 Cedar Lane, Miami, FL 98988)/T (Address) >> 
+]
+/F (pdf/probate-court-cover-letter.pdf) >>>>
+endobj
+trailer
+<<
+/Root 1 0 R 
+
+>>
+%%EOF
