@@ -30,7 +30,7 @@
         $fp = fopen($file_name[0].".fdf", "w");
         fwrite($fp, $fdf);
         fclose($fp);    
-    }    
+    }        
     // Merge fdf into original PDF file
     function generate_pdf_form($pdf_file_source, $json_file_source, $output_file_name) {
         // generate fdf file from pdf_file_source and json.
